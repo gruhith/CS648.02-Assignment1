@@ -4,6 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node server/server.js",
+    "watch": "babel --presets react --out-dir public --watch src",
+    "compile": "babel --presets react --out-dir public",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
